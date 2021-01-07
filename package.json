@@ -1,0 +1,21 @@
+{
+  "name": "postercreate",
+  "version": "1.0.0",
+  "description": "Create poster from front page of a PowerPoint presentation",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . "
+  },
+  "author": "Nick Heath",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.2.3",
+    "electron-builder": "^22.5.1",
+    "electron-rebuild": "^1.10.1"
+  },
+  "dependencies": {
+    "find": "^0.3.0",
+    "gm": "^1.23.1",
+    "which": "^2.0.2"
+  }
+}
