@@ -5,8 +5,8 @@ const fs = require('fs');
 const path = require('path');
 const find = require('find');
 const which = require('which');
-var quality = '400';
-var LOloc = 'C:\\Program Files\\LibreOffice\\program\\soffice.bin';
+let quality = '400';
+let LOloc = 'C:\\Program Files\\LibreOffice\\program\\soffice.bin';
 
 /**
  * List files in a folder using an asynchronous function.
